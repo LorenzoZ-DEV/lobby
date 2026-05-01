@@ -1,0 +1,188 @@
+menus:
+  server-navigation:
+    #You're using this name to access to this menu from anywhere in the configuration where you have action option
+    #Just use for action {openmenu:menu-name}
+    name: "menu1"
+    menu-title: "         &7Selettore modalità"
+    menu-size: 36
+    fill-menu:
+      enabled: false
+      item:
+        name: " "
+        material: "STAINED_GLASS_PANE"
+        amount: 1
+        durability: 0
+        lore: []
+    items:
+      item-1:
+        name: "&dʟɪɴᴋ ᴜᴛɪʟɪ"
+        material: "PINK_DYE"
+        durability: 0
+        slot: 11
+        amount: 1
+        message:
+          enabled: false
+          text: "&eHello &b<player>!"
+        command:
+          enabled: false
+          #Put command without /
+          execute: "joinqueue uhc"
+        action: ""
+        lore:
+          - ""
+          - "&d* &7ᴅɪꜱᴄᴏʀᴅ: &dᴅɪꜱᴄᴏʀᴅ.ɴɪɴꜰᴇᴀ.ꜰᴜɴ"
+          - "&d* &7ꜱɪᴛᴏ: &dᴡᴡᴡ.ɴɪɴꜰᴇᴀ.ꜰᴜɴ"
+          - "&d* &7ꜱᴛᴏʀᴇ: &dꜱᴛᴏʀᴇ.ɴɪɴꜰᴇᴀ.ꜰᴜɴ"
+          - "&d* &7ᴛᴇʟᴇɢʀᴀᴍ: &d@ɴɪɴꜰᴇᴀɴᴇᴛᴡᴏʀᴋ"
+          - ""
+      item-2:
+        name: "&5ᴅɪꜱᴄᴏʀᴅ"
+        material: "PURPLE_DYE"
+        durability: 0
+        slot: 20
+        amount: 1
+        message:
+          enabled: false
+          text: "&eHello &b<player>!"
+        command:
+          enabled: false
+          #Put command without /
+          execute: "joinqueue uhc"
+        action: ""
+        lore:
+          - ""
+          - "&7ᴇɴᴛʀᴀ ɴᴇʟ ꜱᴇʀᴠᴇʀ &d&nᴅɪꜱᴄᴏʀᴅ&ꜰ ᴇ ʀɪᴄᴇᴠɪ"
+          - "&7ꜱᴜᴘᴘᴏʀᴛᴏ ᴅᴀʟ ɴᴏꜱᴛʀᴏ ꜱᴛᴀꜰꜰ"
+          - ""
+          - "&5ᴅɪꜱᴄᴏʀᴅ.ɴɪɴꜰᴇᴀ.ꜰᴜɴ"
+      item-3:
+        name: "&x&F&F&0&0&B&Aᴘ&x&F&F&0&0&B&Aᴏ&x&F&F&0&0&B&Aᴋ&x&F&F&0&0&B&Aᴇ&x&F&F&0&0&B&Aʙ&x&F&F&0&0&B&Aᴏ&x&F&F&0&0&B&Ax"
+        material: "MAGENTA_CANDLE"
+        durability: 0
+        slot: 15
+        amount: 1
+        message:
+          enabled: false
+          text: "&eHello &b<player>!"
+        command:
+          enabled: true
+          #Put command without /
+          execute: "joinqueue boxpvp"
+        action: ""
+        close-inventory: true
+        lore:
+          - ""
+          - "&7ɪᴍᴍᴇʀɢɪᴛɪ ɴᴇʟʟᴀ ɴᴏꜱᴛʀᴀ &5ʙᴏxᴘᴠᴘ&7 ᴀ ᴛᴇᴍᴀ"
+          - "&7ᴘᴏᴋᴇᴍᴏɴ ᴇ ꜱᴄᴏɴꜰɪɢɢɪ ᴛᴜᴛᴛɪ ɪ ᴛᴜᴏɪ &x&F&F&0&0&B&Aɴᴇᴍɪᴄɪ&f."
+          - ""
+          - "&fᴠᴇʀꜱɪᴏɴᴇ: &x&F&F&0&0&B&A1.20.1 - 1.21.x"
+          - "&fᴏɴʟɪɴᴇ: &x&F&F&0&0&B&A%bungee_boxpvp%"
+          - ""
+          - "&x&F&F&0&0&B&A&nᴄʟɪᴄᴄᴀ ᴘᴇʀ ᴇɴᴛʀᴀʀᴇ"
+      item-4:
+        name: "&#FCD05Cᴍ&#FCD05Aɪ&#FDD059ɴ&#FDCF57ᴇ&#FDCF55ɴ&#FECF54ᴀ&#FECF52ᴛ&#FECF50ɪ&#FECE4Eᴏ&#FFCE4Dɴ&#FFCE4Bѕ    &#FC5C5Cᴍ&#FC595Cᴏ&#FC565Cᴅ&#FD535Cᴀ&#FD505Cʟ&#FD4D5Bɪ&#FD4A5Bᴛ&#FD475Bᴀ &#FE415Bɪ&#FE3D5Bɴ&#FE3A5Bɴ&#FE375Bᴏ&#FE345Bᴠ&#FE315Aᴀ&#FF2E5Aᴛ&#FF2B5Aɪ&#FF285Aᴠ&#FF255Aᴀ"
+        material: "GRASS_BLOCK"
+        durability: 0
+        slot: 16
+        amount: 1
+        message:
+          enabled: false
+          text: "&eHello &b<player>!"
+        command:
+          enabled: true
+          #Put command without /
+          execute: "joinqueue minenations"
+        action: ""
+        close-inventory: true
+        lore:
+          - ""
+          - "&Fᴄʀᴇᴀ ᴜɴ ᴛᴇʀʀɪᴛᴏʀɪᴏ ɴᴇʟ &#FCD05Cᴍ&#FCD05Aᴏ&#FDD059ɴ&#FDCF57ᴅ&#FDCF55ᴏ &#FECF52ʀ&#FECF50ᴇ&#FECE4Eᴀ&#FFCE4Dʟ&#FFCE4Bᴇ &f ꜰᴏʀᴍᴀɴᴅᴏ ᴜɴᴀ &#FCD05Cɴ&#FDD059ᴀ&#FDCF56ᴢ&#FECF54ɪ&#FECF51ᴏ&#FFCE4Eɴ&#FFCE4Bᴇ"
+          - "&fᴇ ᴅɪᴄʜɪᴀʀᴀ &#E71F1Fɢ&#EC1919ᴜ&#F11313ᴇ&#F50E0Eʀ&#FA0808ʀ&#FF0202ᴀ &f ᴀʟʟᴀ &#FCD05Cɴ&#FDD059ᴀ&#FDCF56ᴢ&#FECF54ɪ&#FECF51ᴏ&#FFCE4Eɴ&#FFCE4Bᴇ &#E71F1Fɴ&#EB1A1Aᴇ&#EF1515ᴍ&#F31111ɪ&#F70C0Cᴄ&#FB0707ᴀ&#FF0202!"
+          - "&fꜰᴏʀᴍᴀ ɪʟ ᴛᴜᴏ &#DCE71Fʀ&#E5D717ᴇ&#EEC610ɢ&#F6B608ɴ&#FFA500ᴏ &f ᴏ ɪʟ ᴛᴜᴏ &#E71F1Fɪ&#EC1919ᴍ&#F11313ᴘ&#F50C0Cᴇ&#FA0606ʀ&#FF0000ᴏ"
+          - ""
+          - "&fᴠᴇʀꜱɪᴏɴᴇ: &#FCD05C1.20.1 - 26.1.x"
+          - "&fᴏɴʟɪɴᴇ: &#FCD05C%bungee_smp%"
+          - ""
+          - "&#FCD05C&nᴄʟɪᴄᴄᴀ ᴘᴇʀ ᴇɴᴛʀᴀʀᴇ"
+      item-6:
+        name: "&c???"
+        material: "BARRIER"
+        durability: 0
+        slot: 25
+        amount: 1
+        message:
+          enabled: true
+          text: "&cᴀᴛᴛᴜᴀʟᴍᴇɴᴛᴇ ɴᴏɴ ᴅɪꜱᴘᴏɴɪʙɪʟᴇ"
+        command:
+          enabled: false
+          #Put command without /
+          execute: "joinqueue kitpvp"
+        action: ""
+        close-inventory: true
+        lore:
+          - ""
+          - "&fᴠᴇʀꜱɪᴏɴᴇ: &c???"
+          - "&fᴏɴʟɪɴᴇ: &c???"
+          - ""
+          - "&c&nᴄʟɪᴄᴄᴀ ᴘᴇʀ ᴇɴᴛʀᴀʀᴇ"
+      item-7:
+        name: "&c???"
+        material: "BARRIER"
+        durability: 0
+        slot: 24
+        amount: 1
+        message:
+          enabled: true
+          text: "&cᴀᴛᴛᴜᴀʟᴍᴇɴᴛᴇ ɴᴏɴ ᴅɪꜱᴘᴏɴɪʙɪʟᴇ"
+        command:
+          enabled: false
+          #Put command without /
+          execute: "joinqueue kitpvp"
+        action: ""
+        close-inventory: true
+        lore:
+          - ""
+          - "&fᴠᴇʀꜱɪᴏɴᴇ: &c???"
+          - "&fᴏɴʟɪɴᴇ: &c???"
+          - ""
+          - "&c&nᴄʟɪᴄᴄᴀ ᴘᴇʀ ᴇɴᴛʀᴀʀᴇ"
+  hub-servers:
+    name: "menu2"
+    menu-title: "            &7Selettore lobby"
+    menu-size: 27
+    items:
+      item-1:
+        name: "&dʟᴏʙʙʏ-1"
+        material: "GOLD_BLOCK"
+        durability: 0
+        slot: 12
+        amount: 1
+        message:
+          enabled: true
+          text: "&cᴀᴛᴛᴜᴀʟᴍᴇɴᴛᴇ ꜱᴇɪ ɢɪà ᴄᴏɴɴᴇꜱꜱᴏ ᴀ Qᴜᴇꜱᴛᴀ ʟᴏʙʙʏ"
+        command:
+          enabled: false
+          #Put command without /
+          execute: "joinqueue hub01"
+        action: ""
+        lore:
+          - ""
+          - "&eꜱᴇɪ ɢɪà ᴄᴏɴɴᴇꜱꜱᴏ ᴀ Qᴜᴇꜱᴛᴀ ʟᴏʙʙʏ"
+      item-2:
+        name: "&dʟᴏʙʙʏ-2"
+        material: "IRON_BLOCK"
+        durability: 0
+        slot: 13
+        amount: 1
+        message:
+          enabled: false
+          text: "&eHello &b<player>!"
+        command:
+          enabled: true
+          #Put command without /
+          execute: "joinqueue hub-1"
+        action: ""
+        close-inventory: false
+        lore:
+          - ""
+          - "&eᴄʟɪᴄᴄᴀ ᴘᴇʀ ᴄᴏɴɴᴇᴛᴇʀᴛɪ ᴀ Qᴜᴇꜱᴛᴀ ʟᴏʙʙʏ"

@@ -1,0 +1,193 @@
+join:
+  message:
+    enabled: true
+  vip_globale_lobbys:
+    enabled: true
+    groups:
+      - permission: ninfealobby.vip
+        messages:
+          - '%luckperms_prefix%%player% &fè entrato nella lobby!'
+  send-message:
+    enabled: true
+    message:
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - '&#F2C6DE&lɴ&#F3BEDB&lɪ&#F4B7D8&lɴ&#F5AFD5&lꜰ&#F6A8D2&lᴇ&#F7A0CF&lᴀ &#F991C9&lɴ&#FA89C6&lᴇ&#FB81C3&lᴛ&#FC7AC0&lᴡ&#FD72BD&lᴏ&#FE6BBA&lʀ&#FF63B7&lᴋ'
+      - ''
+      - '&#FFFFFFʙ&#FFFFFFᴇ&#FFFFFFɴ&#FFFFFFᴠ&#FFFFFFᴇ&#FFFFFFɴ&#FFFFFFᴜ&#FFFFFFᴛ&#FFFFFFᴏ&#FFFFFF/&#FFFFFFᴀ
+      &#F2C6DE%player_name% &#FFFFFFѕ&#FFFFFFᴜ'
+      - '&#FFFFFFɴ&#FFFFFFᴏ&#FFFFFFѕ&#FFFFFFᴛ&#FFFFFFʀ&#FFFFFFᴏ &#F2C6DE&lѕ&#F0BDD9&lᴇ&#EEB4D4&lʀ&#EDAACE&lᴠ&#EBA1C9&lᴇ&#E998C4&lʀ'
+      - ''
+      - '&#FFFFFFѕ&#FFFFFFɪ&#FFFFFFᴀ&#FFFFFFᴍ&#FFFFFFᴏ &#FEFEFEꜰ&#FEFEFEᴇ&#FEFEFEʟ&#FEFEFEɪ&#FEFEFEᴄ&#FEFEFEɪ
+      &#FEFEFEᴄ&#FEFEFEʜ&#FDFDFDᴇ &#FDFDFDᴛ&#FDFDFDᴜ &#FDFDFDѕ&#FDFDFDɪ&#FDFDFDᴀ &#FDFDFDǫ&#FCFCFCᴜ&#FCFCFCɪ
+      &#FCFCFCѕ&#FCFCFCɪ &#FCFCFCʟ&#FCFCFCɪ&#FCFCFCʙ&#FCFCFCᴇ&#FBFBFBʀ&#FBFBFBᴏ &#FBFBFBᴅ&#FBFBFBɪ
+      &#FBFBFBᴇ&#FBFBFBѕ&#FBFBFBᴘ&#FAFAFAʟ&#FAFAFAᴏ&#FAFAFAʀ&#FAFAFAᴀ&#FAFAFAʀ&#FAFAFAᴇ
+      &#FAFAFAʟ&#FAFAFAᴇ &#F9F9F9ɴ&#F9F9F9ᴏ&#F9F9F9ѕ&#F9F9F9ᴛ&#F9F9F9ʀ&#F9F9F9ᴇ &#F9F9F9ᴍ&#F9F9F9ᴏ&#F9F9F9ᴅ&#F8F8F8ᴀ&#F8F8F8ʟ&#F8F8F8ɪ&#F8F8F8ᴛ&#F8F8F8ᴀ'
+      - ''
+      - '&#FFFFFFᴇ&#FFFFFFѕ&#FEFEFEᴘ&#FEFEFEʟ&#FEFEFEᴏ&#FDFDFDʀ&#FDFDFDᴀ &#FCFCFCᴀ&#FCFCFCɴ&#FCFCFCᴄ&#FCFCFCʜ&#FBFBFBᴇ
+      &#FBFBFBɪ &#FAFAFAɴ&#FAFAFAᴏ&#F9F9F9ѕ&#F9F9F9ᴛ&#F9F9F9ʀ&#F8F8F8ɪ'
+      - '&#F2C6DE&lѕ&#F2BAD8&lᴏ&#F1ADD2&lᴄ&#F1A1CD&lɪ&#F195C7&lᴀ&#F088C1&lʟ&#F07CBB&lѕ'
+      - ''
+      - '&f/ѕᴛᴏʀᴇ /ꜰᴏʀᴜᴍ /ᴅɪѕᴄᴏʀᴅ'
+spawn:
+  world: spawn
+  x: 0.48660656069449304
+  y: 65.0
+  z: 0.5810369236510808
+  yaw: 179.50153
+  pitch: 1.3041862
+TP-TO-SPAWN-ON-JOIN: true
+
+joinpotions:
+  enabled: true
+  hidden: false
+  effects:
+    NIGHT_VISION: 2
+
+queue:
+  portal-hook: false
+  enabled: true
+  send-every-seconds: 2
+  notify-message:
+    - '&#F2C6DE&l»&#F4B7D8&l-&#F6A8D2&l-&#F7A0CF&l-&#F991C9&l-&#FA89C6&l-&#FB81C3&l-&#FC7AC0&l-&#FD72BD&l-&#FE6BBA&l-&#FF63B7&l-&#FF63B7&l-&#FE6BBA&l-&#FD72BD&l-&#FC7AC0&l-&#FB81C3&l-&#FA89C6&l-&#F991C9&l-&#F7A0CF&l-&#F6A8D2&l-&#F4B7D8&l-&#F2C6DE&l«'
+    - ''
+    - '&#FFFFFFѕ&#FFFFFFᴇ&#FFFFFFɪ &#FFFFFFᴀ&#FFFFFFᴛ&#FFFFFFᴛ&#FFFFFFᴜ&#FFFFFFᴀ&#FFFFFFʟ&#FFFFFFᴍ&#FFFFFFᴇ&#FFFFFFɴ&#FFFFFFᴛ&#FFFFFFᴇ
+    &#FFFFFFɪ&#FFFFFFɴ &#F2C6DEᴄ&#F3BEDB&lᴏ&#F4B7D8&lᴅ&#F5AFD5&lᴀ &#FFFFFFɪ&#FFFFFFɴ
+    &#FFFFFFᴘ&#FFFFFFᴏ&#FFFFFFѕ&#FFFFFFɪ&#FFFFFFᴢ&#FFFFFFɪ&#FFFFFFᴏ&#FFFFFFɴ&#FFFFFFᴇ
+    &#F2C6DE#<pos> &#FFFFFFѕ&#FFFFFFᴜ &#FFFFFFᴜ&#FFFFFFɴ &#FFFFFFᴛ&#FFFFFFᴏ&#FFFFFFᴛ&#FFFFFFᴀ&#FFFFFFʟ&#FFFFFFᴇ
+    &#FFFFFFᴅ&#FFFFFFɪ &#F2C6DE<in_queue> &#FFFFFFɢ&#FFFFFFɪ&#FFFFFFᴏ&#FFFFFFᴄ&#FFFFFFᴀ&#FFFFFFᴛ&#FFFFFFᴏ&#FFFFFFʀ&#FFFFFFɪ'
+    - '&#FFFFFFɴ&#FFFFFFᴇ&#FFFFFFʟ &#FFFFFFѕ&#FFFFFFᴇ&#FFFFFFʀ&#FFFFFFᴠ&#FFFFFFᴇ&#FFFFFFʀ
+    &#F2C6DE<server>'
+    - ''
+    - '&#FFFFFFᴠ&#FFFFFFᴜ&#FFFFFFᴏ&#FFFFFFɪ &#FFFFFFѕ&#FFFFFFᴀ&#FFFFFFʟ&#FFFFFFᴛ&#FFFFFFᴀ&#FFFFFFʀ&#FFFFFFᴇ
+    &#FFFFFFʟ&#FFFFFFᴀ &#FFFFFFᴄ&#FFFFFFᴏ&#FFFFFFᴅ&#FFFFFFᴀ&#FFFFFF? &#FFFFFFᴀ&#FFFFFFᴄ&#FFFFFFǫ&#FFFFFFᴜ&#FFFFFFɪ&#FFFFFFѕ&#FFFFFFᴛ&#FFFFFFᴀ
+    &#F2C6DE&lᴠ&#F3BEDB&lɪ&#F4B7D8&lᴘ &#FFFFFFѕ&#FFFFFFᴜ &#F2C6DEѕᴛᴏʀᴇ.ɴɪɴꜰᴇᴀ.ꜰᴜɴ'
+    - ''
+    - '&#F2C6DE&l»&#F4B7D8&l-&#F6A8D2&l-&#F7A0CF&l-&#F991C9&l-&#FA89C6&l-&#FB81C3&l-&#FC7AC0&l-&#FD72BD&l-&#FE6BBA&l-&#FF63B7&l-&#FF63B7&l-&#FE6BBA&l-&#FD72BD&l-&#FC7AC0&l-&#FB81C3&l-&#FA89C6&l-&#F991C9&l-&#F7A0CF&l-&#F6A8D2&l-&#F4B7D8&l-&#F2C6DE&l«'
+REMOVE_PLAYER_FROM_QUEUE_IF_NOT_CONNECTED_TO_TARGET_SERVER: true
+
+enderbutt:
+  ender-butt-type: VELOCITY
+  ender-butt-sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  ender-butt-velocity: 3.0
+  ender-butt-enabled: true
+
+chat-format:
+  enabled: true
+  format: '%luckperms_prefix%%player_name%&7: &f<message>'
+
+servers:
+  KitPvP:
+    name: kitpvp
+    bungee-name: kitpvp
+    address: 85.155.151.149
+    port: 25503
+  BoxPvP:
+    name: boxpvp
+    bungee-name: boxpvp
+    address: 85.155.151.149
+    port: 25500
+  Minenations:
+    name: minenations
+    bungee-name: minenations
+    address: 85.155.151.149
+    port: 25501
+
+options:
+  break-blocks: false
+  place-blocks: true
+  explosions: false
+  item-drop: false
+  item-pickup: false
+  monster-spawn: false
+  animal-spawn: false
+  damage: false
+  fall: false
+  pvp-damage: true
+  chat-use: true
+  weather-change: false
+  no-death-tp: false
+  food-change: false
+
+launch-pads:
+  enabled: true
+  pressure-plate-type: REDSTONE_BLOCK
+  below-block: STONE_PLATE
+  launch-sound: ENTITY_WITHER_SHOOT
+  velocity:
+    multiply: 1.5
+    vertical: 1.1
+
+join-sound: BLOCK_NOTE_BLOCK_CHIME
+join-sound-volume: 10
+join-sound-pitch: 1
+
+join-items:
+  compass:
+    name: '&#9863E7&lѕ&#A75BD7&lᴇ&#B653C7&lʀ&#C64AB6&lᴠ&#D542A6&lᴇ&#E43A96&lʀ &7(ᴄʟɪᴄᴋ ᴅᴇѕᴛʀᴏ&7)'
+    material: COMPASS
+    durability: 0
+    slot: 5
+    amount: 1
+    command:
+      enabled: false
+      execute: ''
+    action: '{openmenu:menu1}'
+    lore: ''
+  enderpearl:
+    name: '&#4498DB&lᴇ&#4498DB&lɴ&#4498DB&lᴅ&#4498DB&lᴇ&#4498DB&lʀ&#4498DB&lʙ&#4498DB&lᴜ&#4498DB&lᴛ&#4498DB&lᴛ &7(ᴄʟɪᴄᴋ ᴅᴇѕᴛʀᴏ&7)'
+    material: ENDER_PEARL
+    durability: 0
+    slot: 2
+    amount: 1
+    command:
+      enabled: false
+      execute: ''
+    action: enderbutt
+  player-invisibility-off:
+    name: '&dᴍᴏѕᴛʀᴀ ɪ ɢɪᴏᴄᴀᴛᴏʀɪ &7(ᴄʟɪᴄᴋ ᴅᴇѕᴛʀᴏ&7)'
+    material: LIGHT_GRAY_DYE
+    durability: 8
+    slot: 9
+    amount: 1
+    command:
+      enabled: false
+      execute: ''
+    action: players_on
+  player-invisibility-on:
+    name: '&dɴᴀѕᴄᴏɴᴅɪ ɪ ɢɪᴏᴄᴀᴛᴏʀɪ &7(ᴄʟɪᴄᴋ ᴅᴇѕᴛʀᴏ&7)'
+    material: PURPLE_DYE
+    durability: 10
+    slot: 9
+    amount: 1
+    command:
+      enabled: false
+      execute: ''
+    action: players_off
+
+JOINSPEED-LEGACY:
+  ENABLED: true
+  LEVEL: 2
+
+PausedQueueMessage:
+  enabled: true
+  delay: 150
+  message:
+    - ''
+    - '&fʟᴀ ᴄᴏᴅᴀ ᴘᴇʀ ɪʟ ѕᴇʀᴠᴇʀ &d<server> &fᴇ'' ᴀᴛᴛᴜᴀʟᴍᴇɴᴛᴇ ɪɴ ᴘᴀᴜѕᴀ. ᴀᴛᴛᴇɴᴅɪ, ᴘᴇʀ ꜰᴀᴠᴏʀᴇ!'
+    - ''
+hub-fly:
+  enabled: true
+  command: true
+
+CLEARINV:
+  ENABLED: true
+CLEARENTITIES:
+  ENABLED: true
+
