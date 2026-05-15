@@ -83,20 +83,20 @@ chat-format:
   format: '%luckperms_prefix%%player_name%&7: &f<message>'
 
 servers:
-  KitPvP:
-    name: kitpvp
-    bungee-name: kitpvp
-    address: 85.155.151.149
+  gamemode-1:
+    name: server-1
+    bungee-name: server-1
+    address: 0.0.0.0
     port: 25503
-  BoxPvP:
-    name: boxpvp
-    bungee-name: boxpvp
-    address: 85.155.151.149
+  gamemode-2:
+    name: server-2
+    bungee-name: server-2
+    address: 0.0.0.0
     port: 25500
-  Minenations:
-    name: minenations
-    bungee-name: minenations
-    address: 85.155.151.149
+  gamemode-3:
+    name: server-3
+    bungee-name: server-3
+    address: 0.0.0.0
     port: 25501
 
 options:
